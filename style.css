@@ -1,0 +1,41 @@
+body{
+    background:#2d2614;
+    color:white;
+    font-family:Arial, sans-serif;
+    text-align:center;
+}
+
+.gallery{
+    width:80%;
+    margin:auto;
+}
+
+#mainImage{
+    width:700px;
+    max-width:100%;
+    margin-top:20px;
+    border-radius:5px;
+}
+
+#caption{
+    font-size:28px;
+    margin:20px;
+}
+
+.thumbnails{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.thumbnails img{
+    width:180px;
+    height:110px;
+    cursor:pointer;
+    border:2px solid transparent;
+}
+
+.thumbnails img:hover{
+    border:2px solid orange;
+}
